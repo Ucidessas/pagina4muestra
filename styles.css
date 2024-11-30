@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: white;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  background: #ff0080;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.projects-section, .gallery-section, .testimonials-section, .contact-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.project-gallery, .image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-item, img {
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project-item:hover, img:hover {
+  transform: scale(1.1);
+}
+
+.testimonials blockquote {
+  font-size: 1.5rem;
+  color: #ff0080;
+}
